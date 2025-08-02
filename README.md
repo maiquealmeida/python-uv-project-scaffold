@@ -23,9 +23,17 @@ Modern Python UV Project Scaffold/
 
 ## Instalação
 
-Instale as dependências do projeto:
+Clone este repositório. Disponibilizei uma ferramenta para facilitar a criação de novos projetos com base neste e outros repositórios:
 
 ```bash
+npx @maiquealmeida/git-template maiquealmeida/python-uv-project-scaffold ./nome-do-projeto
+```
+
+Acesse o diretório criado para o projeto e enstale as dependências do projeto:
+
+```bash
+cd nome-doprojeto
+
 uv sync
 ```
 
